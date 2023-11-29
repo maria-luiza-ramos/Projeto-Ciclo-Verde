@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ciclo Verde - Renovando o Mundo, um ciclo de cada vez!">
+    <title>Ciclo Verde - Renovando o Mundo, um ciclo de cada vez!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+</head>
+
+<body>
+<div class="background-primary"></div>
+
+<header class="cabecalho">
+    <a href="./index.html"><img class="cabecalho-imagem" src="../public/logo%20ciclo%20verde.png"
+                                alt="Logo Ciclo Verde"></a>
+    <nav class="dp-menu">
+        <ul>
+            <li>
+                <a href="./index.html#quem-somos">Quem Somos</a>
+            </li>
+            <li>
+                <a href="./index.html#pontos-verdes">Pontos Verdes</a>
+            </li>
+
+            <li>
+                <a href="./index.html#descarte-consciente">Descarte Consciente</a>
+            </li>
+        </ul>
+    </nav>
+    <a id="go-to-login" class="loginLink" href="./login.html" style="display: none">
+        <button class="loginButton">Login</button>
+    </a>
+
+    <div class="loginLink loggedUserCard" id="show-logged-user" style="display: none">
+        <nav class="dp-menu" style="margin-left: 0 !important;">
+            <ul>
+
+                <li>
+                    <a style="width: 100px" id="username"></a>
+                    <ul style="width: 100px; font-size: 12pt">
+                        <li>
+                            <a href="./profile.html">
+                                Perfil
+                            </a>
+                        </li>
+                        <li>
+                            <a id="logoff">Sair</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="conteudo">
+
+    <section class="conteudo-secundario">
+        <h1 class="conteudo-principal-escrito-titulo">Pontos: 12.345</h1>
+        <p class="conteudo-secundario-paragrafo">Use seus pontos para trocar por benefícios exclusivos!</p>
+
+        <div class="icon-buttons-group">
+            <div class="icon-button">
+                <button class="button">
+                    <span style="font-size: 30px" class="material-symbols-outlined">featured_seasonal_and_gifts</span>
+                </button>
+                <span class="label">Resgatar Pontos</span>
+            </div>
+            <div class="icon-button">
+                <button class="button">
+                    <span style="font-size: 30px" class="material-symbols-outlined">description</span>
+                </button>
+                <span class="label">Extrato de Pontos</span>
+            </div>
+            <div class="icon-button">
+                <button class="button">
+                    <span style="font-size: 30px" class="material-symbols-outlined">sell</span>
+                </button>
+                <span class="label">Meus Resgates</span>
+            </div>
+            <div class="icon-button">
+                <button class="button">
+                   <span style="font-size: 30px" class="material-symbols-outlined">
+                    chat
+                   </span>
+                </button>
+                <span class="label">Dúvidas Frequentes</span>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="conteudo-secundario">
+        <h3 class="conteudo-secundario-titulo">Faça parte desta iniciativa</h3>
+        <p class="conteudo-secundario-paragrafo">Comece agora mesmo a reciclar!<br>
+            Acumule pontos e troque por descontos em impostos, também auxiliando o futuro do nosso planeta!</p>
+    </section>
+
+
+</main>
+<footer class="rodape">
+    <img class="rodape-imagem" src="../public/logo%20ciclo%20verde.png" alt="Logo Ciclo Verde">
+</footer>
+
+</body>
+
+<script src="script-index.js"></script>
+</html>
